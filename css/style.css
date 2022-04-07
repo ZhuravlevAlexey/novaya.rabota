@@ -1,0 +1,375 @@
+/*=================================*/
+/* https://www.figma.com/file/jeVVHBGDKsxK4vLscJqCRF/DegitalAgencyLandingPage?node-id=2%3A6*/
+/*=================================*/
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'montserratregular', 'Arial', sans-serif;
+    min-width: 320px;
+}
+
+.menu__link {
+    color: #969999;
+   }
+   .menu__link:visited {
+    color: #969999;
+   }
+   .menu__link:active {
+    color: #35AFBF;
+   }
+   .menu__link:after {
+	display: block;
+	right: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #35AFBF;
+    content: "";
+    transition: width 0.3s ease-out;
+}
+.menu__link:hover:after,
+.menu__link:focus:after {
+	width: 10%;
+}
+.banner{
+    background-color: white;
+}
+
+main{
+    flex-grow: 1;
+
+}
+.section{
+width: 100%;
+}
+.navbar-toggler{
+    padding-top: 35px;
+}
+.container{
+    margin: 0 auto;
+    max-width:1110px;
+    padding: 0 30px;
+}
+.delivery__container{
+    padding-top: 80px;
+    padding-bottom: 68px;
+    text-align: center;
+
+}
+.delivery__h2{
+    font-style: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+}
+.delivery__text{
+    font-family:'montserratregular';
+    font-size: 12px;
+    line-height:26px ;
+}
+.new__container{
+    text-align: center;
+}
+.new__h2{
+font-family: 'montserratbold';
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #212121;
+
+}
+
+header{
+    min-height: 800px;
+    background-color:#F9F6F1;
+}
+.header-menu{
+    min-height: 90px;
+    position: fixed;
+    width:100%;
+    top:0;
+    z-index:100;
+    background-color: white;
+}
+.section__wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.menu__wrapper{
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+.slider__item{
+    display: flex;
+    padding-top: 127px;
+    justify-content: space-between;
+    min-height: 664px;
+    background: url('../img/Hero\ area\ Image.svg') no-repeat right center;
+    background-size: 583px;
+}
+.slider__text{
+    font-size: 15px;
+}
+.slider__big-text{
+    font-family: 'montserratbold','Arial',sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.button{
+    display: block;
+    width: 240px;
+    padding: 22px 0;
+    text-align: center;
+    background-color: #d7b399;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+}
+.slider__item-price{
+    font-family: 'montserratbold','Arial',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.catalog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.catalog1{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+
+}
+.catalog__price{
+    font-size: small;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    padding-top: 35px;
+
+}
+.basket{
+    padding-top: 35px;
+}
+.mainmenu__list{
+    padding-top: 35px;
+
+}
+.mainmenu__item{
+    padding: 25px;
+    font-size: small;
+}
+.basket__link{
+    padding-top: 35px;
+}
+.navbar-toggler{
+    padding-top: 35px;
+}
+.menu__link{
+    text-decoration: none;
+}
+.basket__link{
+    padding-top: 35px;
+}
+.muzhik__section{
+    padding:90px;
+}
+.muzhik__wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.container__muzhik{
+    display: flex;
+    justify-content: space-between;
+    min-height: 418px;
+
+}
+.muzhik__text{
+    padding-top: 127px;
+    min-height: 664px;
+    text-align: left;
+    max-width: 449px;
+    min-width: 449px;
+}
+.small__text{
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    max-width: 449px;
+
+}
+.big__text{
+    font-family: 'montserratbold','Arial',sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: left;
+    max-width: 449px;
+}
+.muzhik__img{
+padding-left: 95px;
+padding-top: 50px;
+}
+.video__section{
+    display: flex;
+    flex-direction: row;
+}
+.video__text{
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-top: 127px;
+    min-height: 508px;
+    min-width: 1000px;
+    text-align: center;
+    font-size: small;
+}
+.video__img{
+    width: 100%;
+}
+.big__text__video{
+font-size: 35px;
+color: white;
+max-width: 1110px;
+font-weight: bold;
+}
+.small__text__video{
+padding-right: 225px;
+padding-left: 225px;
+color: white;
+}
+.banner{
+    padding:90px ;
+}
+.navbar-toggler{
+    display: none;
+}
+.show{
+    display: block;
+}
+.container__video{
+background: url('../img/Background.svg');
+}
+.features__section{
+    display: flex;
+    flex-direction: row;
+}
+.features__text{
+    font-family: 'montserrat','Arial',sans-serif;
+    padding-top: 127px;
+    min-height: 40px;
+}
+.big__text__features{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #252626;
+}
+.small__text__features{
+    font-size: small;
+    padding-right: 225px;
+    padding-left: 225px;
+    text-align: center;
+    color: #707273;
+    padding-top: 20px;
+}
+.crugi{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    text-align: center;
+}
+.crugi1{
+    padding: 50px;
+}
+.crugi2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    text-align: center;
+}
+.predpodval__section{
+    padding-top: 150px;
+    text-align: center;
+}
+.text__logoipsum{
+    font-weight: bold;
+    font-size: 30px;
+    color:#4B4C4C;
+    padding-top: 30px;
+}
+.doe{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 425px;
+}
+.doe__img{
+    padding-top: 20px;
+    text-align: center;
+}
+.doe__text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'montserrat','Arial',sans-serif;
+    line-height:1px;
+    padding-top: 15px;
+}
+.doe__big__text{
+    font-weight: bold;
+    color: #4B4C4C;
+    text-align: center;
+
+}
+.doe__small__text{
+    font-size: 12px;
+    color: #707273;
+}
+.konec__text{
+    padding-top: 150px;
+    font-family: 'montserrat','Arial',sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+.konec__knopka{
+   padding-top: 20px;
+   padding-bottom: 150px;
+}
+.footer{
+    max-width: 100%;
+    background-color: #2C353E;
+}
+.footer__container{
+    max-width: 1110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'montserrat','Arial',sans-serif;
+}
+.foot__head{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.foot__body{
+    color: #FFFFFF;
+    font-size: 35px;
+}
+.foot__footer{
+    color: #707273;
+    font-size: 15px;
+}
